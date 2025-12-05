@@ -6,7 +6,7 @@ permissions:
 
 on:
   schedule:
-    - cron: '0 3,14 * * *' # 每小时执行一次
+    - cron: '0 3,14 * * *'
   workflow_dispatch:    # 允许手动触发
 
 env:
